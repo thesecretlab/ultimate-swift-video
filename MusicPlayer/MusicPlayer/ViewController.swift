@@ -33,11 +33,15 @@ class ViewController: UIViewController {
     }
     
     func updateNowPlayingItem() {
-        let nowPlayingItem = player.nowPlayingItem
+        if let nowPlayingItem = player.nowPlayingItem {
+            let nowPlayingTitle = nowPlayingItem.title
+            
+            self.nowPlayingTitleLabel.text = nowPlayingTitle
+        } else {
+            self.nowPlayingTitleLabel.text = "Nothing Playing"
+        }
         
-        let nowPlayingTitle = nowPlayingItem.title
         
-        self.nowPlayingTitleLabel.text = nowPlayingTitle
     }
 
     @IBAction func goBack(sender: AnyObject) {
