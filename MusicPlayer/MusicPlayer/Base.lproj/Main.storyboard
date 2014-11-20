@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="MusicPlayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vMc-N3-whT">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem systemItem="rewind" id="amd-yj-Wzn">
+                                        <connections>
+                                            <action selector="goBack:" destination="vXZ-lx-hvc" id="tNN-Vn-5Bu"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="AIP-zx-lg7"/>
+                                    <barButtonItem systemItem="fastForward" id="UmE-up-qt4">
+                                        <connections>
+                                            <action selector="goForward:" destination="vXZ-lx-hvc" id="p05-5A-3BW"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nothing Playing" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3fX-3B-VCw">
+                                <rect key="frame" x="239" y="289" width="121" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="vMc-N3-whT" secondAttribute="bottom" id="Bpa-Vj-JmJ"/>
+                            <constraint firstAttribute="centerX" secondItem="3fX-3B-VCw" secondAttribute="centerX" id="W77-hQ-s5W"/>
+                            <constraint firstAttribute="trailing" secondItem="vMc-N3-whT" secondAttribute="trailing" id="d6x-0l-jZD"/>
+                            <constraint firstAttribute="centerY" secondItem="3fX-3B-VCw" secondAttribute="centerY" constant="0.5" id="gZT-Cx-nEM"/>
+                            <constraint firstItem="vMc-N3-whT" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="jBf-1B-7Zi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="nowPlayingTitleLabel" destination="3fX-3B-VCw" id="NEr-Id-siH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

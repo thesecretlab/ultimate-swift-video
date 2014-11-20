@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Layers" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="tarsier" translatesAutoresizingMaskIntoConstraints="NO" id="cAd-hu-2LD">
+                                <rect key="frame" x="92" y="100" width="417" height="399"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="cAd-hu-2LD" secondAttribute="height" multiplier="139:133" id="SaW-Jw-4rk"/>
+                                </constraints>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="tarsier" translatesAutoresizingMaskIntoConstraints="NO" id="39Y-UG-CLa">
+                                <rect key="frame" x="16" y="18" width="78" height="74"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="39Y-UG-CLa" secondAttribute="height" multiplier="39:37" id="Lx4-SD-QOI"/>
+                                    <constraint firstAttribute="height" constant="74" id="Qgo-Fa-Uhi"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="39Y-UG-CLa" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="7bo-cF-WRL"/>
+                            <constraint firstItem="cAd-hu-2LD" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="10" id="Dl4-n4-mmW"/>
+                            <constraint firstAttribute="centerX" secondItem="cAd-hu-2LD" secondAttribute="centerX" constant="-0.5" id="Pe0-Ga-bIl"/>
+                            <constraint firstAttribute="centerY" secondItem="cAd-hu-2LD" secondAttribute="centerY" constant="0.5" id="fep-Hv-rmO"/>
+                            <constraint firstItem="cAd-hu-2LD" firstAttribute="top" relation="greaterThanOrEqual" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="10" id="stN-Tf-E3d"/>
+                            <constraint firstItem="39Y-UG-CLa" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="-2" id="weO-VE-Ssa"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="cAd-hu-2LD" id="Zkj-Zl-osc"/>
+                        <outlet property="keyframeAnimatedImageView" destination="39Y-UG-CLa" id="HbK-jM-pe9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tarsier" width="417" height="399"/>
+    </resources>
+</document>
