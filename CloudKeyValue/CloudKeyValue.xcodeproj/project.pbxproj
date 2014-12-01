@@ -7,51 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		68D204051A2CF5A600B3D5BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D204041A2CF5A600B3D5BE /* main.m */; };
-		68D204081A2CF5A600B3D5BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D204071A2CF5A600B3D5BE /* AppDelegate.m */; };
-		68D2040B1A2CF5A600B3D5BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D2040A1A2CF5A600B3D5BE /* ViewController.m */; };
-		68D2040E1A2CF5A600B3D5BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D2040C1A2CF5A600B3D5BE /* Main.storyboard */; };
-		68D204101A2CF5A600B3D5BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68D2040F1A2CF5A600B3D5BE /* Images.xcassets */; };
-		68D204131A2CF5A600B3D5BE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68D204111A2CF5A600B3D5BE /* LaunchScreen.xib */; };
-		68D2041F1A2CF5A700B3D5BE /* CloudKeyValueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D2041E1A2CF5A700B3D5BE /* CloudKeyValueTests.m */; };
+		68D204381A2D066800B3D5BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D204371A2D066800B3D5BE /* AppDelegate.swift */; };
+		68D2043A1A2D066800B3D5BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D204391A2D066800B3D5BE /* ViewController.swift */; };
+		68D2043D1A2D066800B3D5BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D2043B1A2D066800B3D5BE /* Main.storyboard */; };
+		68D2043F1A2D066800B3D5BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68D2043E1A2D066800B3D5BE /* Images.xcassets */; };
+		68D204421A2D066800B3D5BE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68D204401A2D066800B3D5BE /* LaunchScreen.xib */; };
+		68D2044E1A2D066900B3D5BE /* CloudKeyValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D2044D1A2D066900B3D5BE /* CloudKeyValueTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		68D204191A2CF5A700B3D5BE /* PBXContainerItemProxy */ = {
+		68D204481A2D066900B3D5BE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 68D203F71A2CF5A600B3D5BE /* Project object */;
+			containerPortal = 68D2042A1A2D066800B3D5BE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 68D203FE1A2CF5A600B3D5BE;
+			remoteGlobalIDString = 68D204311A2D066800B3D5BE;
 			remoteInfo = CloudKeyValue;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		68D203FF1A2CF5A600B3D5BE /* CloudKeyValue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudKeyValue.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		68D204031A2CF5A600B3D5BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		68D204041A2CF5A600B3D5BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		68D204061A2CF5A600B3D5BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		68D204071A2CF5A600B3D5BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		68D204091A2CF5A600B3D5BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		68D2040A1A2CF5A600B3D5BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		68D2040D1A2CF5A600B3D5BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		68D2040F1A2CF5A600B3D5BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		68D204121A2CF5A600B3D5BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		68D204181A2CF5A700B3D5BE /* CloudKeyValueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudKeyValueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		68D2041D1A2CF5A700B3D5BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		68D2041E1A2CF5A700B3D5BE /* CloudKeyValueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudKeyValueTests.m; sourceTree = "<group>"; };
-		68D204281A2CF60A00B3D5BE /* CloudKeyValue.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CloudKeyValue.entitlements; sourceTree = "<group>"; };
+		68D204321A2D066800B3D5BE /* CloudKeyValue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudKeyValue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68D204361A2D066800B3D5BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68D204371A2D066800B3D5BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68D204391A2D066800B3D5BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68D2043C1A2D066800B3D5BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68D2043E1A2D066800B3D5BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		68D204411A2D066800B3D5BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		68D204471A2D066900B3D5BE /* CloudKeyValueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudKeyValueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68D2044C1A2D066900B3D5BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68D2044D1A2D066900B3D5BE /* CloudKeyValueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKeyValueTests.swift; sourceTree = "<group>"; };
+		68D204571A2D067100B3D5BE /* CloudKeyValue.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CloudKeyValue.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		68D203FC1A2CF5A600B3D5BE /* Frameworks */ = {
+		68D2042F1A2D066800B3D5BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68D204151A2CF5A700B3D5BE /* Frameworks */ = {
+		68D204441A2D066900B3D5BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -61,62 +57,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		68D203F61A2CF5A600B3D5BE = {
+		68D204291A2D066800B3D5BE = {
 			isa = PBXGroup;
 			children = (
-				68D204011A2CF5A600B3D5BE /* CloudKeyValue */,
-				68D2041B1A2CF5A700B3D5BE /* CloudKeyValueTests */,
-				68D204001A2CF5A600B3D5BE /* Products */,
+				68D204341A2D066800B3D5BE /* CloudKeyValue */,
+				68D2044A1A2D066900B3D5BE /* CloudKeyValueTests */,
+				68D204331A2D066800B3D5BE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		68D204001A2CF5A600B3D5BE /* Products */ = {
+		68D204331A2D066800B3D5BE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				68D203FF1A2CF5A600B3D5BE /* CloudKeyValue.app */,
-				68D204181A2CF5A700B3D5BE /* CloudKeyValueTests.xctest */,
+				68D204321A2D066800B3D5BE /* CloudKeyValue.app */,
+				68D204471A2D066900B3D5BE /* CloudKeyValueTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		68D204011A2CF5A600B3D5BE /* CloudKeyValue */ = {
+		68D204341A2D066800B3D5BE /* CloudKeyValue */ = {
 			isa = PBXGroup;
 			children = (
-				68D204281A2CF60A00B3D5BE /* CloudKeyValue.entitlements */,
-				68D204061A2CF5A600B3D5BE /* AppDelegate.h */,
-				68D204071A2CF5A600B3D5BE /* AppDelegate.m */,
-				68D204091A2CF5A600B3D5BE /* ViewController.h */,
-				68D2040A1A2CF5A600B3D5BE /* ViewController.m */,
-				68D2040C1A2CF5A600B3D5BE /* Main.storyboard */,
-				68D2040F1A2CF5A600B3D5BE /* Images.xcassets */,
-				68D204111A2CF5A600B3D5BE /* LaunchScreen.xib */,
-				68D204021A2CF5A600B3D5BE /* Supporting Files */,
+				68D204571A2D067100B3D5BE /* CloudKeyValue.entitlements */,
+				68D204371A2D066800B3D5BE /* AppDelegate.swift */,
+				68D204391A2D066800B3D5BE /* ViewController.swift */,
+				68D2043B1A2D066800B3D5BE /* Main.storyboard */,
+				68D2043E1A2D066800B3D5BE /* Images.xcassets */,
+				68D204401A2D066800B3D5BE /* LaunchScreen.xib */,
+				68D204351A2D066800B3D5BE /* Supporting Files */,
 			);
 			path = CloudKeyValue;
 			sourceTree = "<group>";
 		};
-		68D204021A2CF5A600B3D5BE /* Supporting Files */ = {
+		68D204351A2D066800B3D5BE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				68D204031A2CF5A600B3D5BE /* Info.plist */,
-				68D204041A2CF5A600B3D5BE /* main.m */,
+				68D204361A2D066800B3D5BE /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		68D2041B1A2CF5A700B3D5BE /* CloudKeyValueTests */ = {
+		68D2044A1A2D066900B3D5BE /* CloudKeyValueTests */ = {
 			isa = PBXGroup;
 			children = (
-				68D2041E1A2CF5A700B3D5BE /* CloudKeyValueTests.m */,
-				68D2041C1A2CF5A700B3D5BE /* Supporting Files */,
+				68D2044D1A2D066900B3D5BE /* CloudKeyValueTests.swift */,
+				68D2044B1A2D066900B3D5BE /* Supporting Files */,
 			);
 			path = CloudKeyValueTests;
 			sourceTree = "<group>";
 		};
-		68D2041C1A2CF5A700B3D5BE /* Supporting Files */ = {
+		68D2044B1A2D066900B3D5BE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				68D2041D1A2CF5A700B3D5BE /* Info.plist */,
+				68D2044C1A2D066900B3D5BE /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -124,13 +117,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		68D203FE1A2CF5A600B3D5BE /* CloudKeyValue */ = {
+		68D204311A2D066800B3D5BE /* CloudKeyValue */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 68D204221A2CF5A700B3D5BE /* Build configuration list for PBXNativeTarget "CloudKeyValue" */;
+			buildConfigurationList = 68D204511A2D066900B3D5BE /* Build configuration list for PBXNativeTarget "CloudKeyValue" */;
 			buildPhases = (
-				68D203FB1A2CF5A600B3D5BE /* Sources */,
-				68D203FC1A2CF5A600B3D5BE /* Frameworks */,
-				68D203FD1A2CF5A600B3D5BE /* Resources */,
+				68D2042E1A2D066800B3D5BE /* Sources */,
+				68D2042F1A2D066800B3D5BE /* Frameworks */,
+				68D204301A2D066800B3D5BE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -138,37 +131,37 @@
 			);
 			name = CloudKeyValue;
 			productName = CloudKeyValue;
-			productReference = 68D203FF1A2CF5A600B3D5BE /* CloudKeyValue.app */;
+			productReference = 68D204321A2D066800B3D5BE /* CloudKeyValue.app */;
 			productType = "com.apple.product-type.application";
 		};
-		68D204171A2CF5A700B3D5BE /* CloudKeyValueTests */ = {
+		68D204461A2D066900B3D5BE /* CloudKeyValueTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 68D204251A2CF5A700B3D5BE /* Build configuration list for PBXNativeTarget "CloudKeyValueTests" */;
+			buildConfigurationList = 68D204541A2D066900B3D5BE /* Build configuration list for PBXNativeTarget "CloudKeyValueTests" */;
 			buildPhases = (
-				68D204141A2CF5A700B3D5BE /* Sources */,
-				68D204151A2CF5A700B3D5BE /* Frameworks */,
-				68D204161A2CF5A700B3D5BE /* Resources */,
+				68D204431A2D066900B3D5BE /* Sources */,
+				68D204441A2D066900B3D5BE /* Frameworks */,
+				68D204451A2D066900B3D5BE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				68D2041A1A2CF5A700B3D5BE /* PBXTargetDependency */,
+				68D204491A2D066900B3D5BE /* PBXTargetDependency */,
 			);
 			name = CloudKeyValueTests;
 			productName = CloudKeyValueTests;
-			productReference = 68D204181A2CF5A700B3D5BE /* CloudKeyValueTests.xctest */;
+			productReference = 68D204471A2D066900B3D5BE /* CloudKeyValueTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		68D203F71A2CF5A600B3D5BE /* Project object */ = {
+		68D2042A1A2D066800B3D5BE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Secret Lab";
 				TargetAttributes = {
-					68D203FE1A2CF5A600B3D5BE = {
+					68D204311A2D066800B3D5BE = {
 						CreatedOnToolsVersion = 6.1;
 						DevelopmentTeam = 5V2A4389PA;
 						SystemCapabilities = {
@@ -177,13 +170,13 @@
 							};
 						};
 					};
-					68D204171A2CF5A700B3D5BE = {
+					68D204461A2D066900B3D5BE = {
 						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 68D203FE1A2CF5A600B3D5BE;
+						TestTargetID = 68D204311A2D066800B3D5BE;
 					};
 				};
 			};
-			buildConfigurationList = 68D203FA1A2CF5A600B3D5BE /* Build configuration list for PBXProject "CloudKeyValue" */;
+			buildConfigurationList = 68D2042D1A2D066800B3D5BE /* Build configuration list for PBXProject "CloudKeyValue" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -191,29 +184,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 68D203F61A2CF5A600B3D5BE;
-			productRefGroup = 68D204001A2CF5A600B3D5BE /* Products */;
+			mainGroup = 68D204291A2D066800B3D5BE;
+			productRefGroup = 68D204331A2D066800B3D5BE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				68D203FE1A2CF5A600B3D5BE /* CloudKeyValue */,
-				68D204171A2CF5A700B3D5BE /* CloudKeyValueTests */,
+				68D204311A2D066800B3D5BE /* CloudKeyValue */,
+				68D204461A2D066900B3D5BE /* CloudKeyValueTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		68D203FD1A2CF5A600B3D5BE /* Resources */ = {
+		68D204301A2D066800B3D5BE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68D2040E1A2CF5A600B3D5BE /* Main.storyboard in Resources */,
-				68D204131A2CF5A600B3D5BE /* LaunchScreen.xib in Resources */,
-				68D204101A2CF5A600B3D5BE /* Images.xcassets in Resources */,
+				68D2043D1A2D066800B3D5BE /* Main.storyboard in Resources */,
+				68D204421A2D066800B3D5BE /* LaunchScreen.xib in Resources */,
+				68D2043F1A2D066800B3D5BE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68D204161A2CF5A700B3D5BE /* Resources */ = {
+		68D204451A2D066900B3D5BE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -223,47 +216,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		68D203FB1A2CF5A600B3D5BE /* Sources */ = {
+		68D2042E1A2D066800B3D5BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68D2040B1A2CF5A600B3D5BE /* ViewController.m in Sources */,
-				68D204081A2CF5A600B3D5BE /* AppDelegate.m in Sources */,
-				68D204051A2CF5A600B3D5BE /* main.m in Sources */,
+				68D2043A1A2D066800B3D5BE /* ViewController.swift in Sources */,
+				68D204381A2D066800B3D5BE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68D204141A2CF5A700B3D5BE /* Sources */ = {
+		68D204431A2D066900B3D5BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68D2041F1A2CF5A700B3D5BE /* CloudKeyValueTests.m in Sources */,
+				68D2044E1A2D066900B3D5BE /* CloudKeyValueTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		68D2041A1A2CF5A700B3D5BE /* PBXTargetDependency */ = {
+		68D204491A2D066900B3D5BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 68D203FE1A2CF5A600B3D5BE /* CloudKeyValue */;
-			targetProxy = 68D204191A2CF5A700B3D5BE /* PBXContainerItemProxy */;
+			target = 68D204311A2D066800B3D5BE /* CloudKeyValue */;
+			targetProxy = 68D204481A2D066900B3D5BE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		68D2040C1A2CF5A600B3D5BE /* Main.storyboard */ = {
+		68D2043B1A2D066800B3D5BE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				68D2040D1A2CF5A600B3D5BE /* Base */,
+				68D2043C1A2D066800B3D5BE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		68D204111A2CF5A600B3D5BE /* LaunchScreen.xib */ = {
+		68D204401A2D066800B3D5BE /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				68D204121A2CF5A600B3D5BE /* Base */,
+				68D204411A2D066800B3D5BE /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -271,7 +263,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		68D204201A2CF5A700B3D5BE /* Debug */ = {
+		68D2044F1A2D066900B3D5BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -309,11 +301,12 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		68D204211A2CF5A700B3D5BE /* Release */ = {
+		68D204501A2D066900B3D5BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -349,35 +342,29 @@
 			};
 			name = Release;
 		};
-		68D204231A2CF5A700B3D5BE /* Debug */ = {
+		68D204521A2D066900B3D5BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CloudKeyValue/CloudKeyValue.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CloudKeyValue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
-		68D204241A2CF5A700B3D5BE /* Release */ = {
+		68D204531A2D066900B3D5BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CloudKeyValue/CloudKeyValue.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CloudKeyValue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
-		68D204261A2CF5A700B3D5BE /* Debug */ = {
+		68D204551A2D066900B3D5BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -396,7 +383,7 @@
 			};
 			name = Debug;
 		};
-		68D204271A2CF5A700B3D5BE /* Release */ = {
+		68D204561A2D066900B3D5BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -414,32 +401,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		68D203FA1A2CF5A600B3D5BE /* Build configuration list for PBXProject "CloudKeyValue" */ = {
+		68D2042D1A2D066800B3D5BE /* Build configuration list for PBXProject "CloudKeyValue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				68D204201A2CF5A700B3D5BE /* Debug */,
-				68D204211A2CF5A700B3D5BE /* Release */,
+				68D2044F1A2D066900B3D5BE /* Debug */,
+				68D204501A2D066900B3D5BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		68D204221A2CF5A700B3D5BE /* Build configuration list for PBXNativeTarget "CloudKeyValue" */ = {
+		68D204511A2D066900B3D5BE /* Build configuration list for PBXNativeTarget "CloudKeyValue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				68D204231A2CF5A700B3D5BE /* Debug */,
-				68D204241A2CF5A700B3D5BE /* Release */,
+				68D204521A2D066900B3D5BE /* Debug */,
+				68D204531A2D066900B3D5BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		68D204251A2CF5A700B3D5BE /* Build configuration list for PBXNativeTarget "CloudKeyValueTests" */ = {
+		68D204541A2D066900B3D5BE /* Build configuration list for PBXNativeTarget "CloudKeyValueTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				68D204261A2CF5A700B3D5BE /* Debug */,
-				68D204271A2CF5A700B3D5BE /* Release */,
+				68D204551A2D066900B3D5BE /* Debug */,
+				68D204561A2D066900B3D5BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 68D203F71A2CF5A600B3D5BE /* Project object */;
+	rootObject = 68D2042A1A2D066800B3D5BE /* Project object */;
 }
