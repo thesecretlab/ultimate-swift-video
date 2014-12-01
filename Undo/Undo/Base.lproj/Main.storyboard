@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Undo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5TH-Rr-ewg">
+                                <rect key="frame" x="16" y="28" width="38" height="30"/>
+                                <state key="normal" title="Undo">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="undo:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ejq-j0-YaF"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XWL-3x-dV7">
+                                <rect key="frame" x="16" y="66" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.0" green="0.90435666449999996" blue="0.080053854519999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="QGQ-jK-Kl8"/>
+                                    <constraint firstAttribute="height" constant="100" id="ffh-Cv-iyx"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="qrW-gn-Pxa" appends="YES" id="ohc-6C-VNT"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XWL-3x-dV7" firstAttribute="top" secondItem="5TH-Rr-ewg" secondAttribute="bottom" constant="8" id="9r7-Ee-PKs"/>
+                            <constraint firstItem="5TH-Rr-ewg" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="Eyg-KX-BsP"/>
+                            <constraint firstItem="5TH-Rr-ewg" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="OHz-iP-C9H"/>
+                            <constraint firstItem="5TH-Rr-ewg" firstAttribute="leading" secondItem="XWL-3x-dV7" secondAttribute="leading" id="v7I-PL-D8h"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="draggableView" destination="XWL-3x-dV7" id="3rJ-IK-M1l"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="qrW-gn-Pxa">
+                    <connections>
+                        <action selector="dragged:" destination="vXZ-lx-hvc" id="uz4-yt-GUG"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68D204051A2CF5A600B3D5BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D204041A2CF5A600B3D5BE /* main.m */; };
+		68D204081A2CF5A600B3D5BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D204071A2CF5A600B3D5BE /* AppDelegate.m */; };
+		68D2040B1A2CF5A600B3D5BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D2040A1A2CF5A600B3D5BE /* ViewController.m */; };
+		68D2040E1A2CF5A600B3D5BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D2040C1A2CF5A600B3D5BE /* Main.storyboard */; };
+		68D204101A2CF5A600B3D5BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68D2040F1A2CF5A600B3D5BE /* Images.xcassets */; };
+		68D204131A2CF5A600B3D5BE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68D204111A2CF5A600B3D5BE /* LaunchScreen.xib */; };
+		68D2041F1A2CF5A700B3D5BE /* CloudKeyValueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D2041E1A2CF5A700B3D5BE /* CloudKeyValueTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68D204191A2CF5A700B3D5BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68D203F71A2CF5A600B3D5BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68D203FE1A2CF5A600B3D5BE;
+			remoteInfo = CloudKeyValue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68D203FF1A2CF5A600B3D5BE /* CloudKeyValue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudKeyValue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68D204031A2CF5A600B3D5BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68D204041A2CF5A600B3D5BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68D204061A2CF5A600B3D5BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68D204071A2CF5A600B3D5BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68D204091A2CF5A600B3D5BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		68D2040A1A2CF5A600B3D5BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		68D2040D1A2CF5A600B3D5BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68D2040F1A2CF5A600B3D5BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		68D204121A2CF5A600B3D5BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		68D204181A2CF5A700B3D5BE /* CloudKeyValueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudKeyValueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68D2041D1A2CF5A700B3D5BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68D2041E1A2CF5A700B3D5BE /* CloudKeyValueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudKeyValueTests.m; sourceTree = "<group>"; };
+		68D204281A2CF60A00B3D5BE /* CloudKeyValue.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CloudKeyValue.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68D203FC1A2CF5A600B3D5BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68D204151A2CF5A700B3D5BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68D203F61A2CF5A600B3D5BE = {
+			isa = PBXGroup;
+			children = (
+				68D204011A2CF5A600B3D5BE /* CloudKeyValue */,
+				68D2041B1A2CF5A700B3D5BE /* CloudKeyValueTests */,
+				68D204001A2CF5A600B3D5BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68D204001A2CF5A600B3D5BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68D203FF1A2CF5A600B3D5BE /* CloudKeyValue.app */,
+				68D204181A2CF5A700B3D5BE /* CloudKeyValueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68D204011A2CF5A600B3D5BE /* CloudKeyValue */ = {
+			isa = PBXGroup;
+			children = (
+				68D204281A2CF60A00B3D5BE /* CloudKeyValue.entitlements */,
+				68D204061A2CF5A600B3D5BE /* AppDelegate.h */,
+				68D204071A2CF5A600B3D5BE /* AppDelegate.m */,
+				68D204091A2CF5A600B3D5BE /* ViewController.h */,
+				68D2040A1A2CF5A600B3D5BE /* ViewController.m */,
+				68D2040C1A2CF5A600B3D5BE /* Main.storyboard */,
+				68D2040F1A2CF5A600B3D5BE /* Images.xcassets */,
+				68D204111A2CF5A600B3D5BE /* LaunchScreen.xib */,
+				68D204021A2CF5A600B3D5BE /* Supporting Files */,
+			);
+			path = CloudKeyValue;
+			sourceTree = "<group>";
+		};
+		68D204021A2CF5A600B3D5BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68D204031A2CF5A600B3D5BE /* Info.plist */,
+				68D204041A2CF5A600B3D5BE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68D2041B1A2CF5A700B3D5BE /* CloudKeyValueTests */ = {
+			isa = PBXGroup;
+			children = (
+				68D2041E1A2CF5A700B3D5BE /* CloudKeyValueTests.m */,
+				68D2041C1A2CF5A700B3D5BE /* Supporting Files */,
+			);
+			path = CloudKeyValueTests;
+			sourceTree = "<group>";
+		};
+		68D2041C1A2CF5A700B3D5BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68D2041D1A2CF5A700B3D5BE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68D203FE1A2CF5A600B3D5BE /* CloudKeyValue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68D204221A2CF5A700B3D5BE /* Build configuration list for PBXNativeTarget "CloudKeyValue" */;
+			buildPhases = (
+				68D203FB1A2CF5A600B3D5BE /* Sources */,
+				68D203FC1A2CF5A600B3D5BE /* Frameworks */,
+				68D203FD1A2CF5A600B3D5BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudKeyValue;
+			productName = CloudKeyValue;
+			productReference = 68D203FF1A2CF5A600B3D5BE /* CloudKeyValue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68D204171A2CF5A700B3D5BE /* CloudKeyValueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68D204251A2CF5A700B3D5BE /* Build configuration list for PBXNativeTarget "CloudKeyValueTests" */;
+			buildPhases = (
+				68D204141A2CF5A700B3D5BE /* Sources */,
+				68D204151A2CF5A700B3D5BE /* Frameworks */,
+				68D204161A2CF5A700B3D5BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68D2041A1A2CF5A700B3D5BE /* PBXTargetDependency */,
+			);
+			name = CloudKeyValueTests;
+			productName = CloudKeyValueTests;
+			productReference = 68D204181A2CF5A700B3D5BE /* CloudKeyValueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68D203F71A2CF5A600B3D5BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Secret Lab";
+				TargetAttributes = {
+					68D203FE1A2CF5A600B3D5BE = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 5V2A4389PA;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					68D204171A2CF5A700B3D5BE = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 68D203FE1A2CF5A600B3D5BE;
+					};
+				};
+			};
+			buildConfigurationList = 68D203FA1A2CF5A600B3D5BE /* Build configuration list for PBXProject "CloudKeyValue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68D203F61A2CF5A600B3D5BE;
+			productRefGroup = 68D204001A2CF5A600B3D5BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68D203FE1A2CF5A600B3D5BE /* CloudKeyValue */,
+				68D204171A2CF5A700B3D5BE /* CloudKeyValueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68D203FD1A2CF5A600B3D5BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68D2040E1A2CF5A600B3D5BE /* Main.storyboard in Resources */,
+				68D204131A2CF5A600B3D5BE /* LaunchScreen.xib in Resources */,
+				68D204101A2CF5A600B3D5BE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68D204161A2CF5A700B3D5BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68D203FB1A2CF5A600B3D5BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68D2040B1A2CF5A600B3D5BE /* ViewController.m in Sources */,
+				68D204081A2CF5A600B3D5BE /* AppDelegate.m in Sources */,
+				68D204051A2CF5A600B3D5BE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68D204141A2CF5A700B3D5BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68D2041F1A2CF5A700B3D5BE /* CloudKeyValueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68D2041A1A2CF5A700B3D5BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68D203FE1A2CF5A600B3D5BE /* CloudKeyValue */;
+			targetProxy = 68D204191A2CF5A700B3D5BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68D2040C1A2CF5A600B3D5BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68D2040D1A2CF5A600B3D5BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68D204111A2CF5A600B3D5BE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68D204121A2CF5A600B3D5BE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68D204201A2CF5A700B3D5BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68D204211A2CF5A700B3D5BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68D204231A2CF5A700B3D5BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CloudKeyValue/CloudKeyValue.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CloudKeyValue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		68D204241A2CF5A700B3D5BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CloudKeyValue/CloudKeyValue.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CloudKeyValue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		68D204261A2CF5A700B3D5BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CloudKeyValueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudKeyValue.app/CloudKeyValue";
+			};
+			name = Debug;
+		};
+		68D204271A2CF5A700B3D5BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CloudKeyValueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudKeyValue.app/CloudKeyValue";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68D203FA1A2CF5A600B3D5BE /* Build configuration list for PBXProject "CloudKeyValue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68D204201A2CF5A700B3D5BE /* Debug */,
+				68D204211A2CF5A700B3D5BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68D204221A2CF5A700B3D5BE /* Build configuration list for PBXNativeTarget "CloudKeyValue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68D204231A2CF5A700B3D5BE /* Debug */,
+				68D204241A2CF5A700B3D5BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68D204251A2CF5A700B3D5BE /* Build configuration list for PBXNativeTarget "CloudKeyValueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68D204261A2CF5A700B3D5BE /* Debug */,
+				68D204271A2CF5A700B3D5BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68D203F71A2CF5A600B3D5BE /* Project object */;
+}
