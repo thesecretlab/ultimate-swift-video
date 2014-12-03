@@ -425,6 +425,7 @@
 				68683FEE1A1EFCD5007C11EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68683FEF1A1EFCD5007C11EA /* Build configuration list for PBXNativeTarget "ToDoTests" */ = {
 			isa = XCConfigurationList;
@@ -433,6 +434,7 @@
 				68683FF11A1EFCD5007C11EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
